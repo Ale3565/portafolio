@@ -275,9 +275,9 @@
           </span>
         </h2>
         <div class="contact__form-container">
-          <form action='#' class='contact__form' method='post'><input type='hidden' name='form-name' value='form 1' />
+          <form  id = "form" action='https://formsubmit.co/levanosaire@gmail.com' class='contact__form' method='POST'><input type='hidden' name='form-name' value='form 1' />
             <div class="contact__form-field">
-              <label class="contact__form-label" for="name">Nombre</label>
+              <label  class="contact__form-label" for="name">Nombre</label>
               <input
                 required
                 placeholder="Ingresa tu Nombre"
@@ -288,7 +288,7 @@
               />
             </div>
             <div class="contact__form-field">
-              <label class="contact__form-label" for="email">Email</label>
+              <label  class="contact__form-label" for="email">Email</label>
               <input
                 required
                 placeholder="Ingresa tu Email"
@@ -299,7 +299,7 @@
               />
             </div>
             <div class="contact__form-field">
-              <label class="contact__form-label" for="message">Mensaje</label>
+              <label  class="contact__form-label" for="message">Mensaje</label>
               <textarea
                 required
                 cols="30"
@@ -310,7 +310,7 @@
                 id="message"
               ></textarea>
             </div>
-            <button type="submit" class="btn btn--theme contact__btn">
+            <button id = "submit" type="submit" class="btn btn--theme contact__btn">
               Enviar
             </button>
           </form>
